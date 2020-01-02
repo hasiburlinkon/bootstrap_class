@@ -1,0 +1,596 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--CSS links-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Practice jQuary</title>
+  </head>
+  <body>
+    <h1>Hasibur Rahman</h1>
+
+
+                  <!--Start Layout Section-->
+
+    <!--01-How greed works-->
+    <section> 01-How greed works
+      <div class="container">
+        <div class="row">
+          <div class="col-sm bg-primary">one of three columns</div>
+          <div class="col-sm bg-secondary">one of three columns</div>
+          <div class="col-sm bg-success">one of three columns</div>
+        </div>
+      </div>
+    </section>
+    
+    <!--02-Equal-width-->
+    <section>02-Equal-width
+      <div class="container">
+        <div class="row">
+          <div class="col bg-primary">1 of 2</div>
+          <div class="col bg-secondary">2 of 2</div>
+        </div>
+        <div class="row">
+          <div class="col bg-primary">1 of 3</div>
+          <div class="col bg-secondary">2 of 3</div>
+          <div class="col bg-success">3 of 3</div>
+        </div>
+      </div>
+    </section>
+
+    <!--03-Equal-width Multi-line-->
+    <section>03-Equal-width Multi-line
+      <div class="container">
+        <div class="row">
+          <div class="col bg-primary">col</div>
+          <div class="col bg-secondary">col</div>
+          <div class="w-100"></div>
+          <div class="col bg-primary">col</div>
+          <div class="col bg-secondary">col</div>
+        </div>
+      </div>
+    </section>
+    
+    <!--04-Setting one column width-->
+    <section>04-Setting one column width
+      <div class="container">
+        <div class="row">
+          <div class="col bg-primary">1 of 3</div>
+          <div class="col-6 bg-secondary">2 of 3 (wider)</div>
+          <div class="col bg-success">3 of 3</div>
+        </div>
+        <div class="row">
+          <div class="col bg-primary">1 of 3</div>
+          <div class="col-5 bg-secondary">2 of 3 (wider)</div>
+          <div class="col bg-success">3 of 3</div>
+        </div>
+      </div>
+    </section>
+    
+    <!--05-Variable width content-->
+    <section>05-Variable width content
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col col-lg-2 bg-primary">1 of 3</div>
+          <div class="col-md-auto bg-secondary">variable width content</div>
+          <div class="col col-lg-2 bg-success">3 of 3</div>
+        </div>
+        <div class="row">
+          <div class="col bg-primary">1 of 3</div>
+          <div class="col-md-auto bg-secondary">variable width content</div>
+          <div class="col col-lg-2 bg-success">3 of 3</div>
+        </div>
+      </div>
+    </section>
+        
+    <!--06-All breakpoints-->
+    <section>06-All breakpoints
+      <div class="container">
+        <div class="row">
+          <div class="col bg-primary">col</div>
+          <div class="col bg-secondary">col</div>
+          <div class="col bg-success">col</div>
+          <div class="col bg-warning">col</div>
+        </div>
+        <div class="row">
+          <div class="col-8 bg-primary">col-8</div>
+          <div class="col-4 bg-secondary">col-4</div>
+        </div>
+      </div>
+    </section>
+
+    <!--07-Stacked to horizontal-->
+    <section>07-Stacked to horizontal
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 bg-primary">col-sm-8</div>
+          <div class="col-sm-4 bg-secondary">col-sm-4</div>
+        </div>
+        <div class="row">
+          <div class="col-sm bg-primary">col-sm</div>
+          <div class="col-sm bg-secondary">col-sm</div>
+          <div class="col-sm bg-success">col-sm</div>
+        </div>
+      </div>
+    </section>
+
+    <!--08-Mix and match-->
+    <section>08-Mix and match
+      <div class="container">
+        <!--stack the columns on mobile on mobile by making one full-width and the other half-width-->
+        <div class="row">
+          <div class="col-md-8 bg-primary">.col-md-8</div>
+          <div class="col-6 col-md-4 bg-secondary">.col-6 .col-md-4</div>
+        </div>
+        <!--Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop-->
+        <div class="row">
+          <div class="col-6 md-4 bg-primary">.col-6 .col-md-4</div>
+          <div class="col-6 md-4 bg-secondary">.col-6 .col-md-4</div>
+          <div class="col-6 md-4 bg-success">.col-6 .col-md-4</div>
+        </div>
+      </div>
+    </section>
+
+    <!--08-Gutters-->
+    <section>08-Gutters
+      <div class="container px-lg-5">
+        <div class="row mx-lg-n5">
+          <div class="col py-3 px-lg-5 bg-blue border bg-primary">custom coloum padding</div>
+          <div class="col py-3 px-lg-5 bg-blue border bg-secondary">custom coloum padding</div>
+        </div>
+      </div>
+    </section>
+
+    <!--09-Row columns-->
+    <!--01-->
+    <section>09-Row columns
+      <div class="container">01
+        <div class="row row-cols-2">
+          <div class="col bg-primary">column</div>
+          <div class="col bg-secondary">column</div>
+          <div class="col bg-success">column</div>
+          <div class="col bg-warning">column</div>
+        </div>
+      </div>
+      <!--02-->
+      <div class="container">02
+        <div class="row row-cols-3">
+          <div class="col bg-primary">column</div>
+          <div class="col bg-secondary">column</div>
+          <div class="col bg-success">column</div>
+          <div class="col bg-warning">column</div>
+        </div>
+      </div>
+      <!--03-->
+      <div class="container">03
+        <div class="row row-cols-4">
+          <div class="col bg-primary">column</div>
+          <div class="col bg-secondary">column</div>
+          <div class="col bg-success">column</div>
+          <div class="col bg-warning">column</div>
+        </div>
+      </div>
+      <!--04-->
+      <div class="container">04
+        <div class="row row-cols-4">
+          <div class="col bg-primary">column</div>
+          <div class="col bg-secondary">column</div>
+          <div class="col-6 bg-success">column</div>
+          <div class="col bg-warning">column</div>
+        </div>
+      </div>
+      <!--05-->
+      <div class="container">05
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+          <div class="col bg-primary">column</div>
+          <div class="col bg-secondary">column</div>
+          <div class="col bg-success">column</div>
+          <div class="col bg-warning">column</div>
+        </div>
+      </div>
+    </section>
+
+    <!--10-Alignment-->
+      <!--Vertical alignment-->
+    <section>10-Alignment
+      <div class="container">Vertical alignment
+          <!--vertical-01-->
+        <div class="row align-items-start">
+          <div class="col bg-primary">One of three columns</div>
+          <div class="col bg-secondary">One of three columns</div>
+          <div class="col bg-success">One of three columns</div>
+        </div>
+          <!--vertical-02-->
+          <div class="row align-items-center">
+            <div class="col bg-primary">One of three columns</div>
+            <div class="col bg-secondary">One of three columns</div>
+            <div class="col bg-success">One of three columns</div>
+          </div>
+          <!--vertical-03-->
+          <div class="row align-items-end">
+            <div class="col bg-primary">One of three columns</div>
+            <div class="col bg-secondary">One of three columns</div>
+            <div class="col bg-success">One of three columns</div>
+          </div>
+          <!--vertical-04-->
+          <div class="container">especial Vertical alignment
+            <div class="row">
+              <div class="col align-self-start bg-primary">one of three columns</div>
+              <div class="col align-self-center col bg-secondary">one of three columns</div>
+              <div class="col align-self-end bg-success">one of three columns</div>
+            </div>
+          </div>
+      </div>
+      <!--horizontal alignment-->
+        <!--horizontal-01-->
+      <div class="container">horizontal alignment
+        <div class="row justify-content-start">
+          <div class="col-4 bg-primary">one of two columns</div>
+          <div class="col-4 bg-secondary">one of two columns</div>
+        </div>
+      <!--horizontal-02-->
+        <div class="row justify-content-center">
+          <div class="col-4 bg-primary">one of two columns</div>
+          <div class="col-4 bg-secondary">one of two columns</div>
+        </div>
+        <!--horizontal-03-->
+        <div class="row justify-content-end">
+          <div class="col-4 bg-primary">one of two columns</div>
+          <div class="col-4 bg-secondary">one of two columns</div>
+        </div>
+        <!--horizontal-04-->
+        <div class="row justify-content-around">
+          <div class="col-4 bg-primary">one of two columns</div>
+          <div class="col-4 bg-secondary">one of two columns</div>
+        </div>
+        <!--horizontal-05-->
+        <div class="row justify-content-between">
+          <div class="col-4 bg-primary">one of two columns</div>
+          <div class="col-4 bg-secondary">one of two columns</div>
+        </div>
+      </div>
+    </section>
+
+    <!--11-No gutters-->
+    <section>11-No gutters
+      <div class="row no-gutters">
+        <div class="col-sm-6 col-md-8 bg-primary">.col-sm-6 .col-md-8</div>
+        <div class="col-6 col-md-4 bg-secondary">.col-6 .col-md-4</div>
+      </div>
+    </section>
+
+    <!--12-column wrapping-->
+    <section>12-column wrapping
+      <div class="container">
+        <div class="row">
+          <div class="col-9 bg-primary">.col-9</div>
+          <div class="col-4 bg-secondary">.col-4<br>Since 9 + 4 = 13 &gt; 12, this 4-c column-wide div gets wrapped onto a new line as one contiguous unit.</div>
+          <div class="col-6 bg-success">.col-6<br>Subsequent columns continue along the new line</div>
+        </div>
+      </div>
+    </section>
+
+    <!--13-column breaks-->
+    <section>13-column breaks
+      <div class="container">01
+        <div class="row">
+          <div class="col-6 col-sm-3 bg-primary">.col-6 col-sm-3</div>
+          <div class="col-6 col-sm-3 bg-secondary">.col-6 col-sm-3</div>
+          <div class="w-100"></div>
+          <div class="col-6 col-sm-3 bg-success">.col-6 col-sm-3</div>
+          <div class="col-6 col-sm-3 bg-warning">.col-6 col-sm-3</div>
+        </div>
+      </div>
+      <div class="container">02
+        <div class="row">
+          <div class="col-6 col-sm-4 bg-primary">.col-6 col-sm-4</div>
+          <div class="col-6 col-sm-4 bg-secondary">.col-6 col-sm-4</div>
+          <div class="w-100 d-none d-md-block"></div>
+          <div class="col-6 col-sm-4 bg-success">.col-6 col-sm-4</div>
+          <div class="col-6 col-sm-4 bg-warning">.col-6 col-sm-4</div>
+        </div>
+      </div>
+    </section>
+
+    <!--14-Order classes-->
+    <section>14-Order classes
+      <div class="container">01
+        <div class="row">
+          <div class="col bg-primary">First in DOM, = no order applied</div>
+          <div class="col order-12 bg-secondary">Second in DOM, with a larger order</div>
+          <div class="col order-1 bg-success">Third in DPM, with an order of 1</div>
+        </div>
+      </div>
+      <div class="container">02
+        <div class="row">
+          <div class="col order-last bg-primary">First in DOM, ordered last</div>
+          <div class="col bg-secondary">Second in Dom, unordered</div>
+          <div class="col order-first bg-success">Third in DOM, ordered first</div>
+        </div>
+      </div>
+    </section>
+
+    <!--15-Offset classes-->
+    <section>15-Offset classes
+      <!--Offset classes-01-->
+      <div class="container">01
+        <!--01-->
+        <div class="row">
+          <div class="col-md-4 bg-primary">.col-md-4</div>
+          <div class="col-md-4 offset-md-4 bg-secondary">.col-md-4 .offset-md-4</div>
+        </div>
+         <!--02-->
+        <div class="row">
+          <div class="col-md-3 offset-md-3 bg-primary">.col-md-3 .offset-md-3</div>
+          <div class="col-md-3 offset-md-3 bg-secondary">.col-md-3 .offset-md-3</div>
+        </div>
+         <!--03-->
+         <div class="row">
+           <div class="col-md-6 offset-md-3 bg-primary">.col-md-6 .offset-md-3</div>
+         </div>
+       </div>
+       <!--Offset classes-02-->
+       <div class="container">02
+        <!--01-->
+         <div class="row">
+           <div class="col-sm-5 col-md-6 bg-primary">.col-sm-5 .col-md-6</div>
+           <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0 bg-secondary">.col-sm-5 .offset-sm-2 .col-md-6 .offset-md-0</div>
+         </div>
+         <!--02-->
+         <div class="row">
+           <div class="col-sm-6 col-md-5 col-lg-6 bg-primary">.col-sm-6 .col-md-5 .col-lg-6</div>
+           <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0 bg-secondary">col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0</div>
+         </div>
+       </div>
+    </section>
+
+    <!--16-Margin utilities-->
+    <section>16-Margin utilities
+      <div class="container">
+        <!--01-->
+        <div class="row">
+          <div class="col-md-4 bg-primary">.col-md-4</div>
+          <div class="col-md-4 ml-auto bg-secondary">.col-md-4 .ml-auto</div>
+        </div>
+        <!--02-->
+        <div class="row">
+          <div class="col-md-3 ml-md-auto bg-primary">.col-md-3 .ml-md-auto</div>
+          <div class="col-md-3 ml-md-auto bg-secondary">.col-md-3 .ml-md-auto</div>
+        </div>
+        <!--03-->
+        <div class="row">
+          <div class="col-auto mr-auto bg-primary">.col-auto .mr-auto</div>
+          <div class="col-auto bg-secondary">.col-auto</div>
+        </div>
+      </div>
+    </section>
+
+    <!--17-Nesting-->
+    <section>17-Nesting
+      <div class="container">
+        <!--01-->
+        <div class="row">
+          <div class="col-sm-9 bg-primary">.Level 1: .col-sm-9</div>
+        </div>
+         <!--02-->
+         <div class="row">
+           <div class="col-8 col-sm-6 bg-primary">.Level 2: .col-sm-6</div>
+           <div class="col-4 col-sm-6 bg-secondary">.Level 2: .col-4 col-sm-6</div>
+         </div>
+      </div>
+    </section>
+
+    <!--18-Example usage-->
+    <section>18-Example usage
+      <div class="example-container">
+        <div class="example-row">
+          <div class="example-content-main bg-primary">main content</div>
+          <div class="example-content-secondary bg-secondary">secondary content</div>
+        </div>
+
+      </div>
+    </section>
+
+                  <!--End Layout Section-->
+
+                  <!--Start Content Section-->
+
+    
+
+    <!--01-heading-->
+    <section>01-heading
+      <div class="container">
+        <p class="h1 bg-primary">h1.Bootstrap heading</p>
+        <p class="h2 bg-secondary">h2.Bootstrap heading</p>
+        <p class="h3 bg-success">h3.Bootstrap heading</p>
+        <p class="h4 bg-danger">h4.Bootstrap heading</p>
+        <p class="h5 bg-warning">h5.Bootstrap heading</p>
+        <p class="h6 bg-info">h6.Bootstrap heading</p>
+      </div>
+    </section>
+
+    <!--02-Fancy display heading-->
+    <section>02-Fancy display heading
+      <div class="container">
+        <h3 class="border border-danger bg-light">Fancy display heading
+          <small class="text-muted">HASIBUR RAHMAN</small>
+        </h3>
+      </div>
+    </section>
+
+    <!--03-Display heading-->
+    <section>03-Display heading
+      <div class="container">
+        <h1 class="display-1 border border-danger bg-primary">Display-1</h1>
+        <h1 class="display-2 border border-danger bg-secondary">Display-2</h1>
+        <h1 class="display-3 border border-danger bg-success">Display-3</h1>
+        <h1 class="display-4 border border-danger bg-warning">Display-4</h1>
+      </div>
+    </section>  
+
+    <!--04-Lead-->
+    <section>04-Lead
+      <div class="container">
+        <p class="lead bg-primary">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor</p>
+      </div>
+    </section>
+
+    <!--05-Inline text elements-->
+    <section>05-Inline text elements
+      <div class="container">
+    <p class="bg-primary">you can <mark>mark</mark> text</p>
+    <p class="bg-secondary">you can <del>delete</del> text</p>
+    <p class="bg-success">you can <s>delete</s> text</p>
+    <p class="bg-danger">you can <ins>underline</ins> text</p>
+    <p class="bg-warning">you can <u>underline</u> text</p>
+    <p class="bg-info">you can <small>lightfont</small> text</p>
+    <p class="bg-light">you can <strong>bold</strong> text</p>
+    <p class="bg-dark">you can <em>italic</em> text</p>
+      </div>
+    </section>
+
+      <!--06-Abbreviations-->
+      <section>06-Abbreviations
+        <div class="container">
+          <p class="bg-primary"><abbr title="HASIBUR RAHMAN">Hasib</abbr></p>
+          <p class="bg-secondary"><abbr title="Hyper Text Markup Language" class="initialism">html</abbr></p>
+        </div>
+      </section>
+
+      <!--07-Blockquotes-->
+      <section>07-Blockquotes
+        <div class="container">
+          <blockquote class="blockquote bg-primary">
+            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicin.</p>
+          </blockquote>
+        </div>
+      </section>
+
+      <!--08-Naming a source-->
+      <section>08-Naming a source
+        <div class="container">
+          <blockquote class="blockquote bg-primary">
+            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quasi, vitae consequatur!</p>
+            <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+          </blockquote>
+        </div>
+      </section>
+
+
+      <!--09-Alignment-->
+      <section>09-Alignment
+        <div class="container">
+          <!--01-->
+          <blockquote class="blockquote text-center bg-primary">
+            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quasi, vitae consequatur!</p>
+            <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+          </blockquote>
+          <!--02-->
+          <blockquote class="blockquote text-right bg-secondary">
+            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quasi, vitae consequatur!</p>
+            <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+          </blockquote>
+        </div>
+      </section>
+
+      <!--10-Lists-->
+      <section>10-Lists
+        <div class="container">
+          <ul class="list-unstyled bg-primary">
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.
+              <ul class="bg-secondary">
+                <li>phasellus iaculis neque</li>
+                <li>phasellus iaculis neque</li>
+                <li>phasellus iaculis neque</li>
+                <li>phasellus iaculis neque</li>
+              </ul>
+            </li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!--11-Inline-->
+      <section>11-Inline
+        <div class="container">
+          <ul class="list-inline bg-primary">
+            <li class="list-inline-item bg-secondary">lorem ispum</li>
+            <li class="list-inline-item bg-success">Phasellus iaculis</li>
+            <li class="list-inline-item bg-warning">Nulla volutpat</li>
+          </ul>
+        </div>
+      </section>
+
+
+
+      <!--12-Description list alignment--->
+      
+
+
+                              <!--Images-->
+
+      <!--01-Responsive Images-->
+      <section>01-Responsive Images
+        <div class="container border border-danger">
+          <img src="images/logo.jpg" class="img-fluid" alt="logo">
+        </div>
+      </section>
+
+      <!--02-Image thumbnails-->
+      <section>02-Image thumbnails
+        <div class="container border border-danger">
+          <img src="images/logo.jpg" class="img-thumbnail" alt="logo">
+        </div>
+      </section>
+
+      <!--03-Aligning images-->
+      <!--01-->
+      <section>03-Aligning images
+        <div class="container border border-danger">
+          <img src="images/logo.jpg" class="rounded float-left" alt="logo">
+          <img src="images/logo.jpg" class="rounded float-right" alt="logo">
+        </div>
+      </section><br><br><br>
+      <!--02--->
+      <section>
+        <div class="container border border-danger">
+          <img src="images/logo.jpg" class="rounded mx-auto d-block" alt="logo">
+        </div>
+      </section>
+      <!--03--->
+      <section>
+        <div class="text-center border border-danger">
+          <img src="images/logo.jpg" class="rounded mx-auto d-block" alt="logo">
+        </div>
+      </section>
+
+      <!--04-Picture-->
+      <picture>
+        <source srcset="images/logo.jpg" type="image/svg+xml">
+        <img src="images/logo.jpg" class="img-fluid img-thumbnail" alt="logo">
+      </picture>
+
+
+
+                    <!--Tables start-->
+
+
+    <!-- jQuery links -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>-->
+    <!--<script src="js/popper.min.js"></script>-->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
